@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin: 2rem;
+  background-color: #282b33;
+  width: 70%;
+  color: white;
+  padding: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+table {
+  padding: 2rem;
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-size: xx-large;
+  caption-side: top;
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+th,
+td {
+  padding: 1rem;
+  border: 1px solid gray;
+}
+
+thead tr th:nth-child(1),
+tbody tr td:nth-child(1) {
+  text-align: left;
+}
+
+thead th {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+thead tr th:nth-child(1) {
+  background-color: white;
+  color: black;
+  width: 35%;
+}
+
+thead tr th:nth-child(2) {
+  background-color: #ff9c00;
+}
+
+thead tr th:nth-child(3) {
+  background-color: #ea3d42;
+}
+
+thead tr th:nth-child(4) {
+  background-color: #07b8c7;
+}
+
+.bigger {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.orange {
+  color: #ff9c00;
+}
+
+.red {
+  color: #ea3d42;
+}
+
+.aqua {
+  color: #07b8c7;
+}
+
+tbody,
+tfoot {
+  text-align: center;
+}
+
+tfoot button {
+  border-radius: 50px;
+  padding: 1rem;
+  background-color: #ea3d42;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
